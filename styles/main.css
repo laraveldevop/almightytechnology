@@ -15883,7 +15883,8 @@ form.newsletter-form input[type=submit]:hover {
 }
 
 .header.overlayer-fixed.fixed-small .navbar-brand {
-    width: 70px
+    width: 170px;
+    padding-top:5px;
 }
 
 .vmenu .header {
@@ -15893,7 +15894,7 @@ li.nav-item.dropdown.show .dropdown-menu{
         padding: .5rem 10px;
 }
 .navbar-brand {
-    width: 93px;
+    width: 190px;
     margin: 10px;
     padding: 0;
     transition: width .5s ease
