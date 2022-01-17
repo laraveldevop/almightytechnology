@@ -60,18 +60,18 @@ function mainBanner2() {
                 if($(window).scrollTop() >= 85 ){
                     if ($("#slider1.dk").length > 0) {
                     }else{
-                       $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png'); 
+                       $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
                     }
                     
                 }else{
                      if($(window).width()<1025){
                          if ($("#slider1.dk").length > 0) {
-                             $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-white.png');
+                             $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-white.png');
                          }else{
-                            $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png');
+                            $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
                         }
                     }else{
-                        $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-white.png');
+                        $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-white.png');
                     }
                 }
              });
@@ -156,12 +156,12 @@ function mainBanner3() {
      if ($("#slider2").length > 0) {
         $(window).on('scroll', function () {
                 if($(window).scrollTop() >= 85 ){
-                    $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png');
+                    $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
                 }else{
                      if($(window).width()<1025){
-                         $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png');
+                         $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
                     }else{
-                        $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-white.png');
+                        $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-white.png');
                     }
                 }
              });
@@ -234,18 +234,18 @@ function VideoInit() {
     if ($(".home-section").length > 0) {
         $(window).on('scroll', function () {
                 if($(window).scrollTop() >= 85 ){
-                    $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png');
+                    $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
                 }else{
                      if($(window).width()<769){
-                         $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png');
+                         $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
                     }else{
-                        $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-white.png');
+                        $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-white.png');
                     }
                 }
 
              });
         if($(window).width()<769){
-             $('.navbar-brand img').attr('src', 'http://rosettichefs.com/jelly/theOne/mansonv2/images/demo/logos/logo-slider-black.png');
+             $('.navbar-brand img').attr('src', '/images/demo/logos/logo-slider-black.png');
         }
         $(".home-section").css({
             "height": $(window).height() + "px"
