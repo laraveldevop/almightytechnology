@@ -2670,7 +2670,7 @@ fieldset:disabled a.btn {
 .btn-primary:hover {
     color: #212529;
     background-color: #ff060a;
-    border-color: #ff060a
+    border-color: #000 !important;
 }
 
 .btn-primary.focus,
@@ -2689,7 +2689,7 @@ fieldset:disabled a.btn {
 .btn-primary:not(:disabled):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
     color: #212529;
-    background-color: #ff060a;
+    background-color: #000;
     border-color: #ff060a
 }
 
@@ -15159,7 +15159,7 @@ ul li span {
     top: -49px;
     width: 0;
     height: 3px;
-    background-color: #f51418;
+    background-color: #1b1c1c;
     margin-left: -71px;
     width: 71px;
     opacity: 1;
@@ -15759,7 +15759,7 @@ width: 100%;
 }
 
 .contact-form .btn:hover {
-    background-color: #ff060a
+    background-color: #000
 }
 
 .input-icon {
@@ -15845,7 +15845,7 @@ form.newsletter-form input[type=submit]:hover {
 .header.overlayer-fixed {
     position: absolute;
     z-index: 3;
-    padding-top:50px;
+    padding-top:10px;
     width: 100%;
 }
 .header.overlayer-fixed > .row {
@@ -15871,7 +15871,7 @@ form.newsletter-form input[type=submit]:hover {
 
 .header.overlayer-fixed.fixed-small .navbar li .nav-link.active,
 .header.overlayer-fixed.fixed-small .navbar li .nav-link:hover {
-    color: #ff060a
+    color: #0e0e0f
 }
 
 .header.overlayer-fixed.fixed-small .navbar {
@@ -16140,7 +16140,7 @@ section.intro.slider-full{
 
 .navbar li .nav-link.active,
 .navbar li .nav-link:hover {
-    color: #ff060a
+    color: #fff
 }
 
 .navbar li .nav-link.active:before,
@@ -16676,7 +16676,7 @@ span.copyright {
     width: 12px;
     height: 13px;
     border-radius: 6px;
-    background-color: #ff060a;
+    background-color: #fff;
     position: relative;
     top: 3px;
     opacity: 1
@@ -18746,7 +18746,8 @@ div#section-about .container {
     border: 1px solid #e2e3e7;
 }
 .contentslide .sliderslide-content:hover{
-    background-color: #ff060a;
+    background-color: #1b1c1c;
+    color: white;
 }
 .contentslide .flickity-prev-next-button {
     bottom: -23px;
@@ -18924,7 +18925,7 @@ div#section-about .container {
     width: 57px;
     height: 6px;
     margin: 38px auto 35px;
-    background-color: #ff060a
+    background-color: #fff
 }
 
 .brand__list {
@@ -18969,7 +18970,6 @@ div#section-about .container {
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: -2.4px;
-    color: #ff060a;
     padding-top: 7px
 }
 .contact-address h4{
