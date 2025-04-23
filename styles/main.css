@@ -15601,12 +15601,14 @@ img {
     color: #0e0e0f
 }
 
+.btn-primary:focus{
+    background-color: #ff060a;
+    box-shadow: none
+}
 .btn-primary:active,
-.btn-primary:focus,
 .btn-primary:hover {
     background-color: #ff060a;
     color: #fff!important;
-    border-color: #ff060a;
     box-shadow: none
 }
 
